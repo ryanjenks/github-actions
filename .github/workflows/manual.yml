@@ -1,10 +1,9 @@
-name: First Set of Actions 
+name: FirstActions 
 
 on:
   push:
     branches:
       - master
-      - build 
   pull_request:
     types: [closed]
 
